@@ -13,7 +13,7 @@
 
 ## Installation
 
-**Download the DMG from [here](https://github.com/Hajime4th/Calendar/releases), Double click on the DMG and drag the calendar app to your applications folder.
+**Download the DMG from [here](https://github.com/Hajime4th/Calendar/releases), Double click on the DMG and drag the calendar app to your applications folder.**
 
 ## Contribute or Build it yourself
 

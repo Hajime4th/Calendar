@@ -2,8 +2,6 @@
 
 **A minimal calendar widget by Hajime. Based on the code of Mohan Khadka. Made using electron.**
 
-Currently only supports Mac OS X.
-
 ## To do list: 
 **Add support for linux and windows.**
 
@@ -11,9 +9,15 @@ Currently only supports Mac OS X.
 
 **Package the app for easier installation.**
 
+**Remove the icon from the dock so its more like a widget.**
+
 ## Installation
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+**Download the DMG from [here](https://github.com/Hajime4th/Calendar/releases), Double click on the DMG and drag the calendar app to your applications folder.
+
+## Contribute or Build it yourself
+
+**To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:**
 
 ```bash
 # Clone this repository

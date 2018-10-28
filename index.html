@@ -32,8 +32,18 @@ body {
 }
 </style>
   <body>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/button.css">
 
-<link rel="stylesheet" type="text/css" href="./css/style.css">
+    <header>
+        <div id="title-bar">
+
+             <div id="title-bar-btns">
+
+                  <button id="close-btn">X</button>
+
+             </div>
+    </header>
 
 <div class="calendar">
 	<div class="header">
@@ -55,5 +65,6 @@ body {
       require('./renderer.js')
     </script>
     <script type="text/javascript" src="./js/calendar.js"></script>
+    <script type="text/javascript" src="./js/button.js"></script>
   </body>
 </html>

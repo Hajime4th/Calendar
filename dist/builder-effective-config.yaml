@@ -1,0 +1,28 @@
+directories:
+  output: dist
+  buildResources: build
+  app: /Users/hajime/Desktop/Calendar
+appId: com.electron.Calendar
+copyright: Copyright © 2018 Hajime
+productName: Calendar
+electronVersion: 3.0.4
+asar: true
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+mac:
+  target:
+    - target: dmg
+      arch:
+        - x64
+  category: public.app-category.utilities
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: debian package (deb)
+      arch:
+        - x64

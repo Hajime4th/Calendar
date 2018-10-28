@@ -67,12 +67,31 @@ position: center;
 
  color: #FFFFFF;
 
- font-size: 13px;
+ font-size: 14px;
 
 }
 
 #title-bar-btns button:hover {
 
   color: #E3E3E3;
+
+}
+
+#title {
+
+  position: fixed;
+
+  top: -2px;
+
+  text-align: center;
+    width: 100%;
+
+  line-height: 30px;
+
+  font-size: 15px;
+
+  color: white;
+
+  font: Roboto, sans-serif;
 
 }

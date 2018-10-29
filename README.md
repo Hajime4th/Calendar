@@ -30,6 +30,17 @@ npm install
 npm start
 ```
            
+## Changes
+
+**V1.0.0 - Initial Release**
+
+**V1.0.1 - Fixed the drag issues and added a header.**
+
+**V1.0.2 - Added a close button because people requisted it.**
+
+**V1.0.3 - Added calendar title in the header.**
+           
+           
 
 ## Screenshots
 

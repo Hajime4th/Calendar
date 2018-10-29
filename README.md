@@ -1,6 +1,6 @@
 # Calendar
 
-**A minimal calendar widget by Hajime. Based on the code of Mohan Khadka. Made using electron.**
+**A minimal calendar by Hajime. Based on the code of Mohan Khadka. Made using electron.**
 
 ## To do list: 
 **Add support for linux and windows.**

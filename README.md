@@ -3,13 +3,12 @@
 **A minimal calendar by Hajime. Based on the code of Mohan Khadka. Made using electron.**
 
 ## To do list: 
-**Add support for linux and windows.**
+**Add support for windows☑**
+**Add support for linux**
 
 **Make a new icon because the current is the android lollipop one.**
 
-**Package the app for easier installation.**
-
-**Remove the icon from the dock so its more like a widget.**
+**Package the app for easier installation.☑**
 
 ## Installation
 

@@ -42,14 +42,7 @@ body {
 
  -moz-box-shadow: none;
 
-  box-shadow: none;
-  -webkit-touch-callout: none;
- -webkit-user-select: none;
- -khtml-user-select: none;
- -moz-user-select: none;
- -ms-user-select: none;
-  user-select: none;
-
+ outline: none;
 
 }
 
@@ -69,11 +62,15 @@ position: center;
 
  font-size: 14px;
 
+ outline: none;
+
 }
 
 #title-bar-btns button:hover {
 
   color: #E3E3E3;
+
+  outline: none;
 
 }
 

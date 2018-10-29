@@ -4,6 +4,7 @@
 
 ## To do list: 
 **Add support for windows☑**
+
 **Add support for linux**
 
 **Make a new icon because the current is the android lollipop one.**

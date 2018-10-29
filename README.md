@@ -34,5 +34,5 @@ npm start
 ## Screenshots
 
 
-![screen shot 2018-10-29 at 4 30 33 pm](https://user-images.githubusercontent.com/42915482/47656576-03cbcd00-db98-11e8-8de1-22a32489f2c8.png)
+![screen shot 2018-10-29 at 4 32 20 pm](https://user-images.githubusercontent.com/42915482/47656706-3c6ba680-db98-11e8-9264-729f96b9a609.png)
 ![capture](https://user-images.githubusercontent.com/42915482/47643292-b8072c80-db73-11e8-9af9-f9b988c5fac7.PNG)

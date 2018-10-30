@@ -4,7 +4,7 @@
 
 ## Installation
 
-**Click [here](https://github.com/Hajime4th/Calendar/releases), and download for the platform you are using..**
+**Click [here](https://github.com/Hajime4th/Calendar/releases), and download for the platform you are using.**
 
 ## Contribute or Build it yourself
 

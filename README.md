@@ -2,18 +2,9 @@
 
 **A minimal calendar by Hajime. Based on the code of Mohan Khadka. Made using electron.**
 
-## To do list: 
-**Add support for windows☑**
-
-**Add support for linux**
-
-**Make a new icon because the current is the android lollipop one.**
-
-**Package the app for easier installation.☑**
-
 ## Installation
 
-**Download the DMG file from [here](https://github.com/Hajime4th/Calendar/releases), Double click on the DMG file and drag the calendar app to your applications folder.**
+**Click [here](https://github.com/Hajime4th/Calendar/releases), and download for the platform you are using..**
 
 ## Contribute or Build it yourself
 

@@ -27,3 +27,4 @@ npm start
 
 ![screen shot 2018-10-29 at 4 32 20 pm](https://user-images.githubusercontent.com/42915482/47656706-3c6ba680-db98-11e8-9264-729f96b9a609.png)
 ![capture](https://user-images.githubusercontent.com/42915482/47643292-b8072c80-db73-11e8-9af9-f9b988c5fac7.PNG)
+![screenshot from 2018-12-24 00 30 04](https://user-images.githubusercontent.com/42915482/50388343-ef312e80-071b-11e9-97e2-5136a54dc3e7.png)

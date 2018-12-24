@@ -1,15 +1,11 @@
-
-  name: Calendary
-  version: '1.0.5' # just for humans, typically '1.2+git' or '1.3.2'
-  summary: Single-line elevator pitch for your amazing snap # 79 char long summary
-  description: |
-  A minimal calendar by Hajime. 
-
-  grade: devel # must be 'stable' to release into candidate/stable channels
-  confinement: devmode # use 'strict' once you have the right plugs and slots
-
-  parts:
-    my-part:
-      # See 'snapcraft plugins'
-      plugin: nil
-  
+name: calendary
+version: '1.0.5'
+summary: A calendar app build using ElectronJS.
+description: |
+   A minimal calendar by Hajime. 
+grade: devel
+confinement: devmode
+parts:
+  gnu-hello:
+    source: https://github.com/Hajime4th/Calendar.git
+    plugin: autotools

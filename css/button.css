@@ -31,7 +31,8 @@ body {
 
 
 #title-bar-btns {
-
+    font-weight: bold;
+ 
  -webkit-app-region: no-drag;
 
  position: fixed;
@@ -47,6 +48,7 @@ body {
 }
 
 #title-bar-btns button {
+    font-weight: bold;
 
 position: center;
 
@@ -78,16 +80,19 @@ position: center;
 
   position: fixed;
 
-  top: -2px;
+  top: -3px;
 
   text-align: center;
+
     width: 100%;
 
   line-height: 30px;
 
-  font-size: 15px;
+  font-size: 14px;
 
   color: white;
+
+  font-weight: bold;
 
   font: Roboto, sans-serif;
 

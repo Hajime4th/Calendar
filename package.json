@@ -1,7 +1,7 @@
 {
     "name": "Calendar",
-    "version": "1.0.5",
-    "description": " A minimal calendar by Hajime. ",
+    "version": "1.1.0",
+    "description": "A simple Calendar by Hajime.",
     "main": "main.js",
     "scripts": {
         "start": "electron .",
@@ -36,27 +36,21 @@
         "npm": "^6.4.1"
     },
     "build": {
-        "appId": "com.hajime.Calendar",
+        "appId": "com.Hajime.Calendar",
         "copyright": "Copyright © 2018 Hajime",
         "productName": "Calendar",
-        "electronVersion": "3.0.13",
+        "electronVersion": "3.0.4",
         "asar": true,
         "directories": {
-            "app": "/home/hajime/Documents/Calendar",
+            "app": "/Users/hajime/Desktop/Calendar",
             "output": "dist"
         },
-        "linux": {
+        "win": {
             "target": [
                 {
-                    "target": "AppImage",
+                    "target": "nsis",
                     "arch": [
-                        "arch_all"
-                    ]
-                },
-                {
-                    "target": "debian package (deb)",
-                    "arch": [
-                        "arch_all"
+                        "x64"
                     ]
                 }
             ]

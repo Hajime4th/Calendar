@@ -13,19 +13,17 @@
         </script>
         <script>require('./renderer.js')</script>
         <script type="text/javascript" src="./js/calendar.js"></script>
-        <script type="text/javascript" src="./js/button.js"></script>
-        <script type="text/javascript" src="./js/info.js"></script>
+        <script type="text/javascript" src="./js/header.js"></script>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/button.css">
+        <link rel="stylesheet" type="text/css" href="./css/header.css">
 
         <body>
+          <mainpage>
                   <header>
                       <div id="title-bar">
                       <div id="title">Calendar</div>
                       <div id="close-btn">
                       <button id="close-btn">X</button></div>
-                      <div id="max-btn">
-                      <button id="max-btn" disabled>☐</button></div>
                       <div id="min-btn">
                       <button id="min-btn">─</button></div>
                   </header>
@@ -40,5 +38,6 @@
                       <div class="render render-a"></div></div>
                       <div class="month month-b">
                       <div class="render render-b"></div></div>
+                </mainpage>
                </body>
 </html>

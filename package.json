@@ -1,6 +1,6 @@
 {
     "name": "Calendar",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A simple Calendar by Hajime.",
     "main": "main.js",
     "scripts": {
@@ -32,7 +32,9 @@
         "electron-toolkit": "^1.0.24"
     },
     "dependencies": {
+        "@trodi/electron-splashscreen": "^0.3.4",
         "electron-drag": "^1.2.2",
+        "knockout": "^3.4.2",
         "npm": "^6.4.1"
     },
     "build": {

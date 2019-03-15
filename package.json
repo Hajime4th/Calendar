@@ -1,7 +1,7 @@
 {
-    "name": "Calendar",
+    "name": "calendar",
     "version": "1.1.1",
-    "description": "A simple Calendar by Hajime.",
+    "description": "",
     "main": "main.js",
     "scripts": {
         "start": "electron .",
@@ -27,8 +27,9 @@
     "license": "CC0-1.0",
     "devDependencies": {
         "electron": "^3.0.4",
-        "electron-builder": "^20.29.0",
-        "electron-packager": "^13.0.1",
+        "electron-builder": "^20.38.5",
+        "electron-installer-dmg": "^2.0.0",
+        "electron-packager": "^13.1.0",
         "electron-toolkit": "^1.0.24"
     },
     "dependencies": {
@@ -38,24 +39,25 @@
         "npm": "^6.4.1"
     },
     "build": {
-        "appId": "com.Hajime.Calendar",
-        "copyright": "Copyright © 2018 Hajime",
-        "productName": "Calendar",
+        "appId": "com.electron.calendar",
+        "copyright": "Copyright © 2019 Hajime",
+        "productName": "calendar",
         "electronVersion": "3.0.4",
         "asar": true,
         "directories": {
             "app": "/Users/hajime/Desktop/Calendar",
             "output": "dist"
         },
-        "win": {
+        "mac": {
             "target": [
                 {
-                    "target": "nsis",
+                    "target": "dmg",
                     "arch": [
                         "x64"
                     ]
                 }
-            ]
+            ],
+            "category": "public.app-category.utilities"
         }
     }
 }

@@ -6,28 +6,18 @@
 <meta charset="UTF-8">
 <title>Calendar</title>
   </head>
-        <script>
-              const electron = require('electron');
-              electron.webFrame.setZoomLevelLimits(1, 1);
-              const { ipcRenderer } = electron;
-        </script>
         <script>require('./renderer.js')</script>
         <script type="text/javascript" src="./js/calendar.js"></script>
-        <script type="text/javascript" src="./js/header.js"></script>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./css/header.css">
 
         <body>
           <mainpage>
-                  <header>
-                      <div id="title-bar">
-                      <div id="title">Calendar</div>
-                      <div id="close-btn">
-                      <button id="close-btn">X</button></div>
-                      <div id="min-btn">
-                      <button id="min-btn">─</button></div>
-                  </header>
-
+         <header>
+            <div id="title-bar">
+            <div id="close-btn">
+            <button id="close-btn"><img src="https://raw.githubusercontent.com/Hajime4th/Header-Icons/master/Close.png"></button></div>
+          </header>
+              <calendar>
                       <div class="calendar">
                       <div class="header">
                       <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
@@ -38,6 +28,7 @@
                       <div class="render render-a"></div></div>
                       <div class="month month-b">
                       <div class="render render-b"></div></div>
-                </mainpage>
-               </body>
+                </calendar>
+            </mainpage>
+          </body>
 </html>
